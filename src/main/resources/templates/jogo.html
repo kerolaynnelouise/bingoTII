@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+    Cartela
+
+    <table>
+        <thead>
+            <tr>
+                <th>B</th>
+                <th>I</th>
+                <th>N</th>
+                <th>G</th>
+                <th>O</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td th:text="${B[0]}"></td>
+                <td th:text="${I[0]}"></td>
+                <td th:text="${N[0]}"></td>
+                <td th:text="${G[0]}"></td>
+                <td th:text="${O[0]}"></td>
+            </tr>
+            <tr>
+                <td th:text="${B[1]}"></td>
+                <td th:text="${I[1]}"></td>
+                <td th:text="${N[1]}"></td>
+                <td th:text="${G[1]}"></td>
+                <td th:text="${O[1]}"></td>
+            </tr>
+            <tr>
+                <td th:text="${B[2]}"></td>
+                <td th:text="${I[2]}"></td>
+                <td>FREE</td>
+                <td th:text="${G[2]}"></td>
+                <td th:text="${O[2]}"></td>
+            </tr>
+            <tr>
+                <td th:text="${B[3]}"></td>
+                <td th:text="${I[3]}"></td>
+                <td th:text="${N[2]}"></td>
+                <td th:text="${G[3]}"></td>
+                <td th:text="${O[3]}"></td>
+            </tr>
+            <tr>
+                <td th:text="${B[4]}"></td>
+                <td th:text="${I[4]}"></td>
+                <td th:text="${N[3]}"></td>
+                <td th:text="${G[4]}"></td>
+                <td th:text="${O[4]}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
