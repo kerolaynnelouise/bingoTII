@@ -1,6 +1,16 @@
 package com.senac.bingo.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Endereco {
+
+//    O @id QUER dizer que ele é a chave primaria
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer cep;
     private String logradouro;
