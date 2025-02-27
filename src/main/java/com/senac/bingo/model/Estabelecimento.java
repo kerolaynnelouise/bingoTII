@@ -15,6 +15,7 @@ public class Estabelecimento {
     private Endereco endereco;
 
     public Long getCnpj() {
+
         return cnpj;
     }
 
